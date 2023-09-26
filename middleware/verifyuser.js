@@ -9,7 +9,7 @@ const verifyUser = (req,res,next) => {
                 res.status(403).json({message: "Invalid Token"});
             }
             req.user = user;
-            next();
+            next()
         })
     }
 };
