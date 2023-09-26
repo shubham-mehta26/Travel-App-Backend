@@ -31,6 +31,7 @@ app.use("/api/hotels", singleHotelRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/wishlist", wishlistRouter);
 
+
 mongoose.connection.once("open", () => {
     console.log("Connected to database");
     app.listen(port , ()=>{
