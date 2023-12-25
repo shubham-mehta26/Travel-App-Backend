@@ -25,6 +25,7 @@ const hotelSchema = new mongoose.Schema({
     houseRules: { type: Array, required: true },
     propertyType: { type: String, required: true },
     isCancelable: { type: Boolean, required: true },
+    index: { type: Number, required: true },
 })
 
 const Hotel = mongoose.model("Hotel", hotelSchema);

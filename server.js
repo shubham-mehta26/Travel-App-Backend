@@ -23,7 +23,7 @@ connectDB();
 
 const port = process.env.PORT || 3500;
 app.get("/", (req, res) => {
-    res.send("Hello World");
+    res.send("This is the backend code for the yatri app by Shubham Mehta.");
 })
 
 app.use("/api/hoteldata", hotelDataAddedToDBRouter);

@@ -4,6 +4,7 @@ const hotels = {
     "data": [
         {
             id: uuid(),
+            index : 0,
             name: "Whispering Pines Cottages",
             category: "National Parks",
             image: "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
